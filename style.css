@@ -1,0 +1,302 @@
+*
+{
+    background-color: black;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+}
+.main2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    border: 2px solid white;
+    align-items:center;
+}
+.loader1
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border-radius: 100%;
+    border: 5px solid rgba(113,128,146,255);
+}
+.ld1
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 5px solid #f8c5cd;
+    animation: scale 2s linear infinite;
+}
+.ld2
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 5px solid rgba(113,128,146,255);
+    animation: scale 2s linear infinite;
+}
+.ld3
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid #f8c5cd;
+    animation: scale 2s linear infinite;
+}
+@keyframes scale 
+{
+    0%
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+.loader2
+{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.lq1
+{   
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    border: 2px solid white;
+    /* border-top-left-radius: 100px; */
+    animation: round 2s ease infinite;
+}
+.lq2
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 30%;
+    height: 80px;
+    animation: round 1.5s ease infinite;
+    width: 80px;
+    border: 2px solid white;
+    /* border-top-left-radius: 100px; */
+}
+.lq3
+{   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 30%;
+    /* border-top-left-radius: 100px; */
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+    animation: round 1s ease  infinite;
+    perspective: 100px;
+}
+.lq4
+{   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 30%;
+    /* border-top-left-radius: 100px; */
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    animation: round 0.5s linear infinite;
+}
+@keyframes round
+{
+    100%
+    {
+        transform: rotate(360deg);
+        background: #f8c5cd;
+    }
+}
+.loader3
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 5px solid #f8c5cd;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: flex;
+    animation: race 1s ease-out infinite;
+}
+.lqu1
+{
+    width: 70px;
+    align-items: center;
+    height: 70px;
+    border-radius: 100%;
+    margin: auto;
+    border: 5px solid #f8c5cd;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: race 0.9s ease-in infinite;
+}
+@keyframes race
+{
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.loader4
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 234, 234);
+    border-radius: 100%;
+}
+.load1
+{
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 8px solid rgb(86, 81, 81);
+    border-radius: 100%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    animation: race 0.9s linear infinite;
+}
+.loader5
+{
+    width: 100px;
+    height: 100px;
+    border: 45px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.loader6
+{
+    width: 100px;
+    height: 100px;
+    border: 35px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.loader7
+{
+    width: 100px;
+    height: 100px;
+    border: 30px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.loader8
+{
+    width: 100px;
+    height: 100px;
+    border: 25px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.loader9
+{
+    width: 100px;
+    height: 100px;
+    border: 45px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.load3
+{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 35px dotted red;
+    border-radius: 100%;
+    animation: race 0.9s linear infinite;
+}
+.load
+{
+    
+}
+.loader10
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    border-radius: 100%;
+    background-color: transparent;
+    animation: lr 0.9s linear infinite;
+    border-right-color: transparent;
+}
+.load2
+{
+    width: 70px;
+    height: 70px;
+    border: 5px solid red;
+    border-radius: 100%;
+    background-color: transparent;
+    animation: race 0.9s linear infinite;
+    border-left-color: transparent;
+    animation: rotationback 0.5s linear infinite;
+}
+@keyframes lr
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotationback
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(-360deg);
+    }
+    
+}
+.loader11
+{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px dotted white;
+    border-top: 5px dotted white;
+    animation: lr 2s linear infinite;
+}
+.load11
+{
+    width: 70px;
+    height: 70px;
+    border: 5px solid red;
+    border-radius: 100%;
+    border-bottom:5px dotted red;
+    /* border-right:5px dotted red; */
+    animation: rotationback 1s linear infinite;
+}
