@@ -181,7 +181,7 @@
 {
     width: 100px;
     height: 100px;
-    border: 45px dotted red;
+    border: 45px dotted white;
     border-radius: 100%;
     animation: race 0.9s linear infinite;
 }
@@ -189,7 +189,7 @@
 {
     width: 100px;
     height: 100px;
-    border: 35px dotted red;
+    border: 35px dotted white;
     border-radius: 100%;
     animation: race 0.9s linear infinite;
 }
@@ -197,7 +197,7 @@
 {
     width: 100px;
     height: 100px;
-    border: 30px dotted red;
+    border: 30px dotted white;
     border-radius: 100%;
     animation: race 0.9s ease-in-out infinite;
 }
@@ -205,7 +205,7 @@
 {
     width: 100px;
     height: 100px;
-    border: 25px dotted red;
+    border: 25px dotted white;
     border-radius: 100%;
     animation: race 0.9s linear infinite;
 }
@@ -213,7 +213,7 @@
 {
     width: 100px;
     height: 100px;
-    border: 45px dotted red;
+    border: 45px dotted white;
     border-radius: 100%;
     animation: race 0.9s linear infinite;
 }
@@ -222,7 +222,7 @@
     width: 100px;
     height: 100px;
     background-color: transparent;
-    border: 35px dotted red;
+    border: 35px dotted white;
     border-radius: 100%;
     animation: race 0.9s linear infinite;
 }
@@ -233,7 +233,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid red;
+    border: 5px solid white;
     border-radius: 100%;
     background-color: transparent;
     animation: lr 0.9s linear infinite;
@@ -243,7 +243,7 @@
 {
     width: 70px;
     height: 70px;
-    border: 5px solid red;
+    border: 5px solid white;
     border-radius: 100%;
     background-color: transparent;
     animation: race 0.9s linear infinite;
