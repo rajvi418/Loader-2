@@ -374,10 +374,9 @@
     height: 80px;
     width: 80px;
     margin-right: 20px;
-    border: 5px solid #ede5cf;
+    border: 5px solid #250902;
     border-radius: 100%;
     animation: wave 2s linear infinite;
-
 }
 
 .square1
@@ -579,14 +578,13 @@
     }
 }
 
-
 @keyframes wave {
     100% {  box-shadow:
-        0 0 0 40px rgba(255, 255,255, 0),
-        0 0 0 30px rgba(255, 255,255, 0.2),
-        0 0 0 20px rgba(255, 255,255, 0.4),
-        0 0 0 10px rgba(255, 255,255, 0.6),
-        0 0 0 0px rgba(255, 255,255, 1)
+        0 0 0 40px #ffffff00,
+        0 0 0 30px rgba(173, 40, 49, 0.2),
+        0 0 0 20px rgba(128, 14, 19, 0.4),
+        0 0 0 10px rgba(100, 13, 20, 0.6),
+        0 0 0 0px rgba(56, 4, 14, 1)
       }
 }
 
