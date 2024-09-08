@@ -7,7 +7,7 @@
 {
     width: 100%;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .main2
 {
@@ -16,7 +16,7 @@
     justify-content: space-around;
     width: 100%;
     height: 120px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     align-items:center;
 }
 .loader1
@@ -51,17 +51,7 @@
     border: 5px solid #f8c5cd;
     animation: scale 2s linear infinite;
 }
-@keyframes scale 
-{
-    0%
-    {
-        transform: scale(0);
-    }
-    100%
-    {
-        transform: scale(1);
-    }
-}
+
 .loader2
 {
     width: 100px;
@@ -118,14 +108,7 @@
     border: 2px solid white;
     animation: round 0.5s linear infinite;
 }
-@keyframes round
-{
-    100%
-    {
-        transform: rotate(360deg);
-        background: #f8c5cd;
-    }
-}
+
 .loader3
 {
     width: 100px;
@@ -136,7 +119,7 @@
     border-left-color: transparent;
     border-right-color: transparent;
     display: flex;
-    animation: race 1s ease-out infinite;
+    animation: rotate 1s ease-out infinite;
 }
 .lqu1
 {
@@ -149,15 +132,9 @@
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
-    animation: race 0.9s ease-in infinite;
+    animation: rotate 0.9s ease-in infinite;
 }
-@keyframes race
-{
-    100%
-    {
-        transform: rotate(360deg);
-    }
-}
+
 .loader4
 {
     width: 100px;
@@ -175,7 +152,7 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .loader5
 {
@@ -183,7 +160,7 @@
     height: 100px;
     border: 45px dotted white;
     border-radius: 100%;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .loader6
 {
@@ -191,7 +168,7 @@
     height: 100px;
     border: 35px dotted white;
     border-radius: 100%;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .loader7
 {
@@ -199,7 +176,7 @@
     height: 100px;
     border: 30px dotted white;
     border-radius: 100%;
-    animation: race 0.9s ease-in-out infinite;
+    animation: rotate 0.9s ease-in-out infinite;
 }
 .loader8
 {
@@ -207,7 +184,7 @@
     height: 100px;
     border: 25px dotted white;
     border-radius: 100%;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .loader9
 {
@@ -215,7 +192,7 @@
     height: 100px;
     border: 45px dotted white;
     border-radius: 100%;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .load3
 {
@@ -224,7 +201,7 @@
     background-color: transparent;
     border: 35px dotted white;
     border-radius: 100%;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
 }
 .loader10
 {
@@ -246,33 +223,11 @@
     border: 5px solid white;
     border-radius: 100%;
     background-color: transparent;
-    animation: race 0.9s linear infinite;
+    animation: rotate 0.9s linear infinite;
     border-left-color: transparent;
     animation: rotationback 0.5s linear infinite;
 }
-@keyframes lr
-{
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(360deg);
-    }
-}
-@keyframes rotationback
-{
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(-360deg);
-    }
-    
-}
+
 .loader11
 {
     width: 100px;
@@ -340,7 +295,7 @@
     border-radius: 100%;
     border-top-color:transparent;
     border-bottom-color: transparent;
-    animation: race 1s ease-in-out infinite;
+    animation: rotate 1s ease-in-out infinite;
 }
 .loader14
 {
@@ -353,7 +308,7 @@
     border-radius: 100%;
     border-top-color:transparent ;
     border-bottom-color: transparent;
-    animation: race 1s linear infinite ;
+    animation: rotate 1s linear infinite ;
 }
 .load14
 {
@@ -362,6 +317,7 @@
     border: 5px solid white;
     border-radius:100%;
 }
+
 .loader15
 {
     width: 100px;
@@ -370,13 +326,9 @@
     border-radius: 100%;
     margin-right: 20px;
     border-top-color: rgba(113,128,146,255);
-    animation: route 2s linear infinite;
+    animation: rotate 2s linear infinite;
 }
-@keyframes route {
-    100%{
-        transform: rotate(360deg);
-    }
-}
+
 .loader16
 {
     width: 100px;
@@ -384,7 +336,7 @@
     border: 5px dotted grey;
     border-radius: 100%;
     margin-right: 20px;
-    animation: route 5s linear infinite;
+    animation: rotate 5s linear infinite;
 }
 .loader17
 {
@@ -394,7 +346,7 @@
     border-radius: 100%;
     margin-right: 20px;
     border-top-color: transparent;
-    animation: route 2s linear infinite;
+    animation: rotate 2s linear infinite;
 }
 .loader18
 {
@@ -408,7 +360,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 50px;
-    animation: route 2s linear infinite;
+    animation: rotate 2s linear infinite;
 }
 .inload
 {
@@ -427,15 +379,7 @@
     animation: wave 2s linear infinite;
 
 }
-@keyframes wave {
-    100% {  box-shadow:
-        0 0 0 40px rgba(255, 255,255, 0),
-        0 0 0 30px rgba(255, 255,255, 0.2),
-        0 0 0 20px rgba(255, 255,255, 0.4),
-        0 0 0 10px rgba(255, 255,255, 0.6),
-        0 0 0 0px rgba(255, 255,255, 1)
-      }
-}
+
 .square1
 {
     height: 100px;
@@ -444,27 +388,15 @@
     border: 5px solid rgba(113,128,146,255);
     animation: fast 2s linear infinite;
 }
-@keyframes fast
-{
-    100%
-    {
-        transform:rotateX(360deg);
-    }
-}
+
 .sq1
 {
     width: 90px;
     height: 90px;
     border: 5px solid #f8c5cd;
-    animation: fast2 3s linear infinite;
+    animation: fast 3s linear infinite;
 }
-@keyframes fast2
-{
-    100%
-    {
-        transform:rotateX(360deg);
-    }
-}
+
 .sq2
 {
     width: 80px;
@@ -472,28 +404,16 @@
     border: 5px solid rgba(113,128,146,255);
     animation: rotate 1s linear infinite;
 }
-@keyframes rotate
-{
-    100%
-    {
-        transform:rotate(360deg);
-    }
-}
+
 .square2
 {
     width: 90px;
     height: 90px;
     margin-right: 50px;
     border: 5px solid #f8c5cd;
-    animation: rotate2 2s linear infinite;
+    animation: rotate 2s linear infinite;
 }
-@keyframes rotate2
-{
-    100%
-    {
-        transform: rotate(360deg);
-    }
-}
+
 .square3
 {
     width: 100px;
@@ -515,17 +435,7 @@
     border: 5px solid rgba(113,128,146,255);
     animation: scale 2s linear infinite;
 }
-@keyframes scale 
-{
-    0%
-    {
-        transform: scale(0);
-    }
-    100%
-    {
-        transform: scale(1);
-    }
-}
+
 .square4
 {
     width: 100px;
@@ -540,6 +450,98 @@
     border: 5px solid rgba(113,128,146,255);
     animation: rotation 2s ease-in 1s infinite;
 }
+
+.round1
+{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f8c5cd;
+    border-radius: 100%;
+    margin-right: 20px ;
+    border-top: 0px;
+    animation: rotate 1s linear infinite;
+}
+.round2
+{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    border: 5px solid rgba(113,128,146,255)d;
+    border-radius: 100%;
+    border-top: 10px groove #f8c5cd;
+    animation: rotate 2s linear infinite;
+}
+.round3
+{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    border: 5px solid rgba(113,128,146,255);
+    border-radius: 100%;
+    border-top: 5px solid #f8c5cd;
+    animation: rotate 2s linear infinite;
+}
+.round4
+{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    border: 5px solid #f8c5cd;
+    border-radius: 100%;
+    border-top: 5px dotted rgba(113,128,146,255);
+    animation: rotate 2s linear infinite;
+}
+.round5
+{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    border: 5px dotted #f8c5cd;
+    border-radius: 100%;
+    border-top: 5px solid rgba(113,128,146,255);
+    animation: rotate 2s linear infinite;
+}
+.round6
+{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    border:none;
+    border-radius: 100%;
+    border-top: 5px solid #f8c5cd;
+    animation: rotate 2s linear infinite;
+}
+/* f */
+
+@keyframes fast
+{
+    100%
+    {
+        transform:rotateX(360deg);
+    }
+}
+/* lr */
+@keyframes lr
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+/* r */
+
+@keyframes rotate
+{
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+
 @keyframes rotation
 {
     0%
@@ -555,63 +557,47 @@
         transform: rotateX(360deg) rotateY(360deg) perspective(200px);
     }
 }
-.round1
+@keyframes rotationback
 {
-    width: 100px;
-    height: 100px;
-    border: 5px solid #f8c5cd;
-    border-radius: 100%;
-    margin-right: 20px ;
-    border-top: 0px;
-    animation: route 2s linear infinite;
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(-360deg);
+    }
+    
 }
-.round2
+
+@keyframes round
 {
-    width: 100px;
-    height: 100px;
-    margin-right:20px ;
-    border: 5px solid rergba(113,128,146,255)d;
-    border-radius: 100%;
-    border-top: 10px groove #f8c5cd;
-    animation: route 2s linear infinite;
+    100%
+    {
+        transform: rotate(360deg);
+        background: #f8c5cd;
+    }
 }
-.round3
-{
-    width: 100px;
-    height: 100px;
-    margin-right:20px ;
-    border: 5px solid rgba(113,128,146,255);
-    border-radius: 100%;
-    border-top: 5px solid #f8c5cd;
-    animation: route 2s linear infinite;
+
+
+@keyframes wave {
+    100% {  box-shadow:
+        0 0 0 40px rgba(255, 255,255, 0),
+        0 0 0 30px rgba(255, 255,255, 0.2),
+        0 0 0 20px rgba(255, 255,255, 0.4),
+        0 0 0 10px rgba(255, 255,255, 0.6),
+        0 0 0 0px rgba(255, 255,255, 1)
+      }
 }
-.round4
+
+@keyframes scale 
 {
-    width: 100px;
-    height: 100px;
-    margin-right:20px ;
-    border: 5px solid #f8c5cd;
-    border-radius: 100%;
-    border-top: 5px dotted rgba(113,128,146,255);
-    animation: route 2s linear infinite;
-}
-.round5
-{
-    width: 100px;
-    height: 100px;
-    margin-right:20px ;
-    border: 5px dotted #f8c5cd;
-    border-radius: 100%;
-    border-top: 5px solid rgba(113,128,146,255);
-    animation: route 2s linear infinite;
-}
-.round6
-{
-    width: 100px;
-    height: 100px;
-    margin-right:20px ;
-    border:none;
-    border-radius: 100%;
-    border-top: 5px solid #f8c5cd;
-    animation: route 2s linear infinite;
+    0%
+    {
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
 }
